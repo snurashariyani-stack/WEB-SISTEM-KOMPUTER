@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SystemLab | Sistem Komputer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">System<span>Lab.</span></a>
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#materi">Materi</a>
+        <a href="#pretest">Pre-test</a>
+        <a href="#latihan">Latihan</a>
+        <a href="#posttest">Post-test</a>
+    </nav>
+</header>
+
+<section class="hero" id="beranda">
+    <div class="hero-content">
+        <p class="tag">INTERACTIVE LEARNING WEBSITE</p>
+        <h1>Kenali Sistem Komputer dengan Cara yang <span>Lebih Seru.</span></h1>
+        <p>
+            Pelajari bagaimana komputer bekerja, kenali komponen penyusunnya,
+            dan uji pemahamanmu melalui materi serta latihan interaktif.
+        </p>
+        <a href="#pretest" class="btn">Mulai Belajar ↗</a>
+    </div>
+    <div class="hero-visual">
+        <div class="chip">
+            <div class="chip-inner">CPU</div>
+            <span class="chip-text">COMPUTER SYSTEM</span>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="tujuan">
+    <p class="tag">LEARNING OBJECTIVES</p>
+    <h2>Tujuan Pembelajaran</h2>
+    <div class="cards">
+        <div class="card">
+            <span class="number">01</span>
+            <h3>Memahami Konsep</h3>
+            <p>Menjelaskan pengertian dan fungsi sistem komputer.</p>
+        </div>
+        <div class="card">
+            <span class="number">02</span>
+            <h3>Mengenali Komponen</h3>
+            <p>Membedakan hardware, software, dan brainware.</p>
+        </div>
+        <div class="card">
+            <span class="number">03</span>
+            <h3>Menganalisis Proses</h3>
+            <p>Memahami proses input, processing, output, dan storage.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section darker" id="pretest">
+    <p class="tag">STEP 01 · TEST YOUR KNOWLEDGE</p>
+    <h2>Pre-test</h2>
+    <p class="section-desc">
+        Kerjakan tes awal berikut untuk mengetahui pemahamanmu sebelum belajar.
+    </p>
+
+    <div class="quiz-box">
+        <div class="quiz-top">
+            <span id="pre-progress">Pertanyaan 1 dari 5</span>
+            <span id="pre-score">Skor: 0</span>
+        </div>
+        <div class="progress-track">
+            <div id="pre-bar" class="progress-bar"></div>
+        </div>
+        <div id="pre-question"></div>
+        <div id="pre-options" class="options"></div>
+        <p id="pre-feedback" class="feedback"></p>
+        <button id="pre-next" class="btn" disabled>Jawaban Berikutnya →</button>
+        <div id="pre-result"></div>
+    </div>
+</section>
+
+<section class="section" id="materi">
+    <p class="tag">STEP 02 · LEARNING MATERIAL</p>
+    <h2>Jelajahi Materi</h2>
+    <p class="section-desc">
+        Materi disusun secara bertahap, dari konsep dasar hingga cara kerja komputer.
+    </p>
+
+    <div class="material-layout">
+        <aside class="material-menu">
+            <button class="topic-btn active" data-topic="0">01. Sistem Komputer</button>
+            <button class="topic-btn" data-topic="1">02. Hardware</button>
+            <button class="topic-btn" data-topic="2">03. Software</button>
+            <button class="topic-btn" data-topic="3">04. Brainware</button>
+            <button class="topic-btn" data-topic="4">05. Cara Kerja Komputer</button>
+        </aside>
+        <article class="material-content">
+            <span class="tag" id="topic-label">MATERI 01</span>
+            <h3 id="topic-title">Pengertian Sistem Komputer</h3>
+            <div id="topic-content"></div>
+            <div class="material-navigation">
+                <button id="topic-prev" class="btn btn-secondary">← Sebelumnya</button>
+                <button id="topic-next" class="btn">Selanjutnya →</button>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section class="section darker" id="simulasi">
+    <p class="tag">INTERACTIVE SIMULATION</p>
+    <h2>Simulasi Cara Kerja Komputer</h2>
+    <p class="section-desc">
+        Klik setiap tahapan untuk mengetahui proses pengolahan data.
+    </p>
+
+    <div class="ipos">
+        <button class="ipos-card active" data-ipos="0">
+            <span>01</span><h3>INPUT</h3><p>Masukkan data</p>
+        </button>
+        <div class="ipos-arrow">→</div>
+        <button class="ipos-card" data-ipos="1">
+            <span>02</span><h3>PROCESS</h3><p>Olah data</p>
+        </button>
+        <div class="ipos-arrow">→</div>
+        <button class="ipos-card" data-ipos="2">
+            <span>03</span><h3>OUTPUT</h3><p>Hasil informasi</p>
+        </button>
+        <div class="ipos-arrow">→</div>
+        <button class="ipos-card" data-ipos="3">
+            <span>04</span><h3>STORAGE</h3><p>Simpan data</p>
+        </button>
+    </div>
+
+    <div class="simulation-detail">
+        <h3 id="ipos-title">INPUT — Memasukkan Data</h3>
+        <p id="ipos-description">
+            Data dimasukkan melalui perangkat input seperti keyboard, mouse, atau mikrofon.
+        </p>
+    </div>
+</section>
+
+<section class="section" id="latihan">
+    <p class="tag">STEP 03 · PRACTICE</p>
+    <h2>Latihan Mencocokkan</h2>
+    <p class="section-desc">
+        Pilih perangkat, kemudian pilih kategori yang sesuai.
+    </p>
+
+    <div class="exercise-box">
+        <div id="matching-items" class="matching-items"></div>
+        <div id="matching-categories" class="matching-categories"></div>
+        <p id="matching-feedback" class="feedback"></p>
+        <p id="matching-progress">Pasangan benar: 0 dari 5</p>
+        <button id="matching-reset" class="btn btn-secondary">Ulangi Latihan</button>
+    </div>
+</section>
+
+<section class="section darker" id="posttest">
+    <p class="tag">STEP 04 · EVALUATION</p>
+    <h2>Post-test</h2>
+    <p class="section-desc">
+        Uji kembali pemahamanmu setelah mempelajari seluruh materi.
+    </p>
+
+    <div class="quiz-box">
+        <div class="quiz-top">
+            <span id="post-progress">Pertanyaan 1 dari 5</span>
+            <span id="post-score">Skor: 0</span>
+        </div>
+        <div class="progress-track">
+            <div id="post-bar" class="progress-bar"></div>
+        </div>
+        <div id="post-question"></div>
+        <div id="post-options" class="options"></div>
+        <p id="post-feedback" class="feedback"></p>
+        <button id="post-next" class="btn" disabled>Jawaban Berikutnya →</button>
+        <div id="post-result"></div>
+    </div>
+</section>
+
+<section class="section" id="kesimpulan">
+    <p class="tag">STEP 05 · SUMMARY</p>
+    <h2>Kesimpulan Pembelajaran</h2>
+    <div class="summary-box">
+        <p>
+            Sistem komputer merupakan kesatuan hardware, software, dan brainware
+            yang bekerja sama untuk mengolah data menjadi informasi.
+        </p>
+        <p>
+            Proses kerja komputer secara umum meliputi input, processing, output,
+            dan storage. Setiap komponen mempunyai fungsi berbeda, tetapi saling
+            mendukung agar sistem berjalan dengan baik.
+        </p>
+        <div class="final-scores">
+            <div><span>Pre-test</span><strong id="final-pre">-</strong></div>
+            <div><span>Post-test</span><strong id="final-post">-</strong></div>
+        </div>
+        <button id="reset-all" class="btn">Belajar Lagi ↻</button>
+    </div>
+</section>
+
+<footer>
+    <a href="#beranda" class="logo">System<span>Lab.</span></a>
+    <p>Media Pembelajaran Interaktif · Sistem Komputer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
